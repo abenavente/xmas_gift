@@ -1,4 +1,6 @@
 XmasGifts::Application.routes.draw do
+  resources :accounts
+
   resources :gifts
 
   resources :people
